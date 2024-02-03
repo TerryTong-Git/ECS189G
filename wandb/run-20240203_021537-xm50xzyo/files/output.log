@@ -1,0 +1,72 @@
+************ Start ************
+dataset: train , method: multi-layer perceptron , setting: default , result: saver , evaluation: accuracy
+loading data...
+loading data...
+method running...
+--start training...
+{'X': array([[0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       ...,
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.]]), 'y': array([0, 4, 1, ..., 7, 2, 6])}
+evaluating performance...
+Epoch: 0 Accuracy 0.07526004936530324 Loss: 2.310115098953247
+F1 micro: 0.07526004936530324 F1 macro: 0.03438698138597619 F1 weight: 0.0360428799508497
+recall micro: 0.07526004936530324 recall macro: 0.06932409589778091 recall weight: 0.07526004936530324
+precision micro: 0.07526004936530324 precision macro: 0.05861974068338334 precision weight: 0.05725284610251323
+/home/terry/.conda/envs/py3_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/terry/.conda/envs/py3_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+evaluating performance...
+/home/terry/.conda/envs/py3_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/terry/.conda/envs/py3_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch: 100 Accuracy 0.7862967207334274 Loss: 1.6699351072311401
+F1 micro: 0.7862967207334274 F1 macro: 0.7110899384369876 F1 weight: 0.7185269558356812
+recall micro: 0.7862967207334274 recall macro: 0.7823933644396196 recall weight: 0.7862967207334274
+precision micro: 0.7862967207334274 precision macro: 0.6691360358210434 precision weight: 0.6777740954630663
+evaluating performance...
+Epoch: 200 Accuracy 0.9923748236953456 Loss: 1.4688012599945068
+F1 micro: 0.9923748236953456 F1 macro: 0.9923657264668607 F1 weight: 0.9923725203444177
+recall micro: 0.9923748236953456 recall macro: 0.9923815229297052 recall weight: 0.9923748236953456
+precision micro: 0.9923748236953456 precision macro: 0.9923531271863535 precision weight: 0.9923733903457707
+evaluating performance...
+Epoch: 300 Accuracy 0.9940276798307476 Loss: 1.4671108722686768
+F1 micro: 0.9940276798307476 F1 macro: 0.9940318180396852 F1 weight: 0.9940264312131748
+recall micro: 0.9940276798307476 recall macro: 0.9940590295503622 recall weight: 0.9940276798307476
+precision micro: 0.9940276798307476 precision macro: 0.9940086406683099 precision weight: 0.9940292704582077
+evaluating performance...
+Epoch: 400 Accuracy 0.994424365303244 Loss: 1.466689109802246
+F1 micro: 0.994424365303244 F1 macro: 0.9944238960617622 F1 weight: 0.9944233284092252
+recall micro: 0.994424365303244 recall macro: 0.9944556665004978 recall weight: 0.994424365303244
+precision micro: 0.994424365303244 precision macro: 0.9943959446264736 precision weight: 0.994426186643292
+evaluating performance...
+Epoch: 500 Accuracy 0.9949973554301833 Loss: 1.4661259651184082
+F1 micro: 0.9949973554301833 F1 macro: 0.9949971770672008 F1 weight: 0.9949966436389548
+recall micro: 0.9949973554301833 recall macro: 0.9950245941347953 recall weight: 0.9949973554301833
+precision micro: 0.9949973554301833 precision macro: 0.994972837218052 precision weight: 0.9949990599249218
+evaluating performance...
+Epoch: 600 Accuracy 0.9950855077574048 Loss: 1.4660271406173706
+F1 micro: 0.9950855077574048 F1 macro: 0.9950842740191014 F1 weight: 0.995084879509415
+recall micro: 0.9950855077574048 recall macro: 0.9951110926937634 recall weight: 0.9950855077574048
+precision micro: 0.9950855077574048 precision macro: 0.9950606095369757 precision weight: 0.9950874485084544
+Traceback (most recent call last):
+  File "/home/terry/ECS189G_Winter_2022_Source_Code_Template/wrapper.py", line 8, in <module>
+    import script.stage_2_script.script_mlp
+  File "/home/terry/ECS189G_Winter_2022_Source_Code_Template/script/stage_2_script/script_mlp.py", line 56, in <module>
+    mean_score, std_score = setting_obj.load_run_save_evaluate()
+  File "/home/terry/ECS189G_Winter_2022_Source_Code_Template/code/stage_2_code/Setting.py", line 26, in load_run_save_evaluate
+    learned_result = self.method.run()
+  File "/home/terry/ECS189G_Winter_2022_Source_Code_Template/code/stage_2_code/Method_MLP.py", line 140, in run
+    self.train(self.data['train']['X'], self.data['train']['y'])
+  File "/home/terry/ECS189G_Winter_2022_Source_Code_Template/code/stage_2_code/Method_MLP.py", line 115, in train
+    train_loss.backward()
+  File "/home/terry/.conda/envs/py3_env/lib/python3.10/site-packages/torch/_tensor.py", line 492, in backward
+    torch.autograd.backward(
+  File "/home/terry/.conda/envs/py3_env/lib/python3.10/site-packages/torch/autograd/__init__.py", line 251, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

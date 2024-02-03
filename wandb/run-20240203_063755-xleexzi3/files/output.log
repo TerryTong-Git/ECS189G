@@ -1,0 +1,75 @@
+************ Start ************
+dataset: train , method: multi-layer perceptron , setting: default , result: saver , evaluation: accuracy
+loading data...
+loading data...
+method running...
+--start training...
+{'X': array([[0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       ...,
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.]]), 'y': array([0, 4, 1, ..., 7, 2, 6])}
+evaluating performance...
+Epoch: 0 Accuracy 0.13835507757404794 Loss: 2.3059308528900146
+F1 micro: 0.13835507757404794 F1 macro: 0.051760504798516085 F1 weight: 0.050634842768090535
+recall micro: 0.13835507757404794 recall macro: 0.14145473734494937 recall weight: 0.13835507757404794
+precision micro: 0.13835507757404794 precision macro: 0.0675709295718813 precision weight: 0.06474038903945468
+/home/terry/.conda/envs/py3_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/terry/.conda/envs/py3_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/terry/.conda/envs/py3_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/terry/.conda/envs/py3_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+evaluating performance...
+Epoch: 100 Accuracy 0.16546191819464035 Loss: 2.284653902053833
+F1 micro: 0.16546191819464035 F1 macro: 0.06382427411316663 F1 weight: 0.0625050816952872
+recall micro: 0.16546191819464035 recall macro: 0.16895695164833663 recall weight: 0.16546191819464035
+precision micro: 0.16546191819464035 precision macro: 0.09687803779555157 precision weight: 0.09503424789975658
+/home/terry/.conda/envs/py3_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/terry/.conda/envs/py3_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+evaluating performance...
+Epoch: 200 Accuracy 0.22549365303244007 Loss: 2.249981641769409
+F1 micro: 0.22549365303244007 F1 macro: 0.11318470903139817 F1 weight: 0.11134249770678484
+recall micro: 0.22549365303244007 recall macro: 0.2299931611796747 recall weight: 0.22549365303244007
+precision micro: 0.22549365303244007 precision macro: 0.18978831500143772 precision weight: 0.18993912446908137
+evaluating performance...
+Epoch: 300 Accuracy 0.2718617771509168 Loss: 2.203213930130005
+F1 micro: 0.2718617771509168 F1 macro: 0.13063912369401115 F1 weight: 0.12851013091210522
+recall micro: 0.2718617771509168 recall macro: 0.2767361939989531 recall weight: 0.2718617771509168
+precision micro: 0.2718617771509168 precision macro: 0.20916601569212417 precision weight: 0.21119037030354246
+/home/terry/.conda/envs/py3_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/terry/.conda/envs/py3_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/terry/.conda/envs/py3_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/terry/.conda/envs/py3_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+evaluating performance...
+Epoch: 400 Accuracy 0.3225934414668547 Loss: 2.1549201011657715
+F1 micro: 0.3225934414668547 F1 macro: 0.20611088372880873 F1 weight: 0.20521922947518814
+recall micro: 0.3225934414668547 recall macro: 0.3264131191564253 recall weight: 0.3225934414668547
+precision micro: 0.3225934414668547 precision macro: 0.2624832099934195 precision weight: 0.2642267829488474
+evaluating performance...
+Epoch: 500 Accuracy 0.4407175599435825 Loss: 2.087770938873291
+F1 micro: 0.4407175599435825 F1 macro: 0.32087785432501775 F1 weight: 0.31966454114153836
+recall micro: 0.4407175599435825 recall macro: 0.4431137780991782 recall weight: 0.4407175599435825
+precision micro: 0.4407175599435825 precision macro: 0.34337786476304744 precision weight: 0.34375156662457834
+/home/terry/.conda/envs/py3_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/terry/.conda/envs/py3_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/terry/.conda/envs/py3_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/terry/.conda/envs/py3_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+evaluating performance...
+Epoch: 600 Accuracy 0.5336741889985895 Loss: 2.0107645988464355
+F1 micro: 0.5336741889985895 F1 macro: 0.42406547917694004 F1 weight: 0.42324334577149164
+recall micro: 0.5336741889985895 recall macro: 0.5350946142491518 recall weight: 0.5336741889985895

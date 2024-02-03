@@ -1,0 +1,32 @@
+************ Start ************
+dataset: train , method: multi-layer perceptron , setting: default , result: saver , evaluation: accuracy
+loading data...
+loading data...
+method running...
+--start training...
+{'X': array([[0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       ...,
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.]]), 'y': array([0, 4, 1, ..., 7, 2, 6])}
+evaluating performance...
+Epoch: 0 Accuracy 0.09698959802538787 Loss: 2.364161491394043
+F1 micro: 0.09698959802538787 F1 macro: 0.08050721078174448 F1 weight: 0.079248406223589
+recall micro: 0.09698959802538787 recall macro: 0.09870480040015056 recall weight: 0.09698959802538787
+precision micro: 0.09698959802538787 precision macro: 0.10580722880151135 precision weight: 0.10687957909148166
+Traceback (most recent call last):
+  File "/home/terry/ECS189G_Winter_2022_Source_Code_Template/wrapper.py", line 8, in <module>
+    import script.stage_2_script.script_mlp
+  File "/home/terry/ECS189G_Winter_2022_Source_Code_Template/script/stage_2_script/script_mlp.py", line 56, in <module>
+    mean_score, std_score = setting_obj.load_run_save_evaluate()
+  File "/home/terry/ECS189G_Winter_2022_Source_Code_Template/code/stage_2_code/Setting.py", line 26, in load_run_save_evaluate
+    learned_result = self.method.run()
+  File "/home/terry/ECS189G_Winter_2022_Source_Code_Template/code/stage_2_code/Method_MLP.py", line 121, in run
+    self.train(self.data['train']['X'], self.data['train']['y'])
+  File "/home/terry/ECS189G_Winter_2022_Source_Code_Template/code/stage_2_code/Method_MLP.py", line 86, in train
+    y_pred = self.forward(torch.FloatTensor(np.array(X)))
+  File "/home/terry/ECS189G_Winter_2022_Source_Code_Template/code/stage_2_code/Method_MLP.py", line 60, in forward
+    h = a + h  # Add the residual connection
+KeyboardInterrupt

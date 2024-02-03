@@ -1,0 +1,25 @@
+************ Start ************
+dataset: train , method: multi-layer perceptron , setting: default , result: saver , evaluation: accuracy
+loading data...
+loading data...
+method running...
+--start training...
+{'X': array([[0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       ...,
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.]]), 'y': array([0, 4, 1, ..., 7, 2, 6])}
+evaluating performance...
+Epoch: 0 Accuracy 0.0 Loss: 5.703853130340576
+F1 micro: 0.0 F1 macro: 0.0 F1 weight: 0.0
+recall micro: 0.0 recall macro: 0.0 recall weight: 0.0
+precision micro: 0.0 precision macro: 0.0 precision weight: 0.0
+/home/terry/.conda/envs/py3_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/terry/.conda/envs/py3_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/terry/.conda/envs/py3_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/terry/.conda/envs/py3_env/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.

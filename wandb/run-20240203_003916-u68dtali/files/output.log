@@ -1,0 +1,47 @@
+************ Start ************
+dataset: train , method: multi-layer perceptron , setting: default , result: saver , evaluation: accuracy
+loading data...
+loading data...
+method running...
+--start training...
+{'X': array([[0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       ...,
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.],
+       [0., 0., 0., ..., 0., 0., 0.]]), 'y': array([0, 4, 1, ..., 7, 2, 6])}
+evaluating performance...
+Epoch: 0 Accuracy 0.09698959802538787 Loss: 2.364161491394043
+F1 micro: 0.09698959802538787 F1 macro: 0.08050721078174448 F1 weight: 0.079248406223589
+recall micro: 0.09698959802538787 recall macro: 0.09870480040015056 recall weight: 0.09698959802538787
+precision micro: 0.09698959802538787 precision macro: 0.10580722880151135 precision weight: 0.10687957909148166
+evaluating performance...
+Epoch: 100 Accuracy 0.09914933004231312 Loss: 2.362001657485962
+F1 micro: 0.09914933004231312 F1 macro: 0.0813743286537901 F1 weight: 0.08007245253286463
+recall micro: 0.09914933004231312 recall macro: 0.10089531581708103 recall weight: 0.09914933004231312
+precision micro: 0.09914933004231312 precision macro: 0.09863038699156032 precision weight: 0.09886544208277435
+evaluating performance...
+Epoch: 200 Accuracy 0.09828984485190409 Loss: 2.362861156463623
+F1 micro: 0.09828984485190409 F1 macro: 0.0820677487012311 F1 weight: 0.08075040902695282
+recall micro: 0.09828984485190409 recall macro: 0.10007582281059939 recall weight: 0.09828984485190409
+precision micro: 0.09828984485190409 precision macro: 0.10317895444514218 precision weight: 0.10390253107067902
+evaluating performance...
+Epoch: 300 Accuracy 0.09846614950634697 Loss: 2.362684726715088
+F1 micro: 0.09846614950634697 F1 macro: 0.08107826913047475 F1 weight: 0.07977366539211664
+recall micro: 0.09846614950634697 recall macro: 0.10021473076221259 recall weight: 0.09846614950634697
+precision micro: 0.09846614950634697 precision macro: 0.0995630224450497 precision weight: 0.1000572225720573
+evaluating performance...
+Epoch: 400 Accuracy 0.09831188293370945 Loss: 2.3628392219543457
+F1 micro: 0.09831188293370945 F1 macro: 0.08115017554467344 F1 weight: 0.07987270471130621
+recall micro: 0.09831188293370945 recall macro: 0.09999889457285138 recall weight: 0.09831188293370945
+precision micro: 0.09831188293370945 precision macro: 0.09612164283267882 precision weight: 0.09595785287352404
+evaluating performance...
+Epoch: 500 Accuracy 0.09831188293370945 Loss: 2.3628392219543457
+F1 micro: 0.09831188293370945 F1 macro: 0.08153624945696411 F1 weight: 0.08021656040271506
+recall micro: 0.09831188293370945 recall macro: 0.10006254250755427 recall weight: 0.09831188293370945
+precision micro: 0.09831188293370945 precision macro: 0.0987047506496839 precision weight: 0.09875638651669416
+evaluating performance...
+Epoch: 600 Accuracy 0.09416872355430184 Loss: 2.3669822216033936
+F1 micro: 0.09416872355430184 F1 macro: 0.07758366498333794 F1 weight: 0.07630977387535072
+recall micro: 0.09416872355430184 recall macro: 0.09585262579746961 recall weight: 0.09416872355430184

@@ -1,0 +1,294 @@
+{
+    "os": "Linux-5.10.192-183.736.amzn2.x86_64-x86_64-with-glibc2.26",
+    "python": "3.10.9",
+    "heartbeatAt": "2024-02-03T00:30:58.645349",
+    "startedAt": "2024-02-03T00:30:58.350465",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/terry/ECS189G_Winter_2022_Source_Code_Template/wrapper.py",
+    "codePathLocal": "wrapper.py",
+    "codePath": "wrapper.py",
+    "host": "ip-172-31-69-60.ec2.internal",
+    "username": "terry",
+    "executable": "/home/terry/.conda/envs/py3_env/bin/python",
+    "cpu_count": 24,
+    "cpu_count_logical": 48,
+    "cpu_freq": {
+        "current": 3147.07825,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3300.376,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3298.741,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3242.12,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3310.9,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3312.267,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3315.23,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2215.712,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3297.148,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3302.744,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3318.184,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3068.885,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3288.648,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3310.377,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3286.961,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2586.891,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3321.252,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3283.727,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2420.494,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3305.279,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3320.286,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3328.414,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2878.628,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1942.437,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3281.608,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3312.267,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3273.262,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3290.824,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3309.439,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3322.244,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3313.539,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3312.715,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3283.554,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3280.076,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3315.972,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3327.298,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3301.807,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3315.575,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2644.314,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2387.922,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2876.402,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2521.109,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3319.893,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3308.344,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3313.569,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3284.316,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3303.799,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3310.213,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 5119.988262176514,
+            "used": 4738.982921600342
+        }
+    },
+    "gpu": "NVIDIA A10G",
+    "gpu_count": 4,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA A10G",
+            "memory_total": 24146608128
+        },
+        {
+            "name": "NVIDIA A10G",
+            "memory_total": 24146608128
+        },
+        {
+            "name": "NVIDIA A10G",
+            "memory_total": 24146608128
+        },
+        {
+            "name": "NVIDIA A10G",
+            "memory_total": 24146608128
+        }
+    ],
+    "memory": {
+        "total": 186.7047882080078
+    }
+}
